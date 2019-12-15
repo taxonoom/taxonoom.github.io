@@ -18,7 +18,58 @@ layout: compress
     <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
     <meta property="og:type" content="profile">
 
-    {% seo %}
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": [
+                "Organization",
+                "LocalBusiness",
+                "FinancialService",
+                "AccountingService"
+            ],
+            "url": "https://taxonoom.nl",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Delfgauw, The Netherlands",
+                "postalCode": "2645 EJ",
+                "streetAddress": "Distributieweg 12"
+            },
+            "email": "info@taxonoom.nl",
+            "member": [
+                {
+                "@type": "Person",
+                "name": "Patrick Boeters"
+                },
+                {
+                "@type": "Person",
+                "name": "Jantine Schaap"
+                }
+            ],
+            "name": "TaxonooM",
+            "telephone": "+31 (0) 15 783 0 783",
+            "openingHours": [
+                "Mo-Fr 9:00–12:15, 13:15–18:00"
+            ],
+            "logo": "https://taxonoom.github.io/assets/images/LOGO-TaxonooM.png",
+            "knowsAbout": [
+                "tax",
+                "tax advise",
+                "income tax",
+                "VAT",
+                "belasting",
+                "belastingadvies",
+                "inkomensbelasting",
+                "BTW aangifte",
+                "administratie",
+                "administratieve dienstverlening"
+            ],
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Register Belastingadviseurs (RB)"
+            },
+            "description": "'TaxonooM' is een belastingadvies- en administratiekantoor voor het midden- en kleinbedrijf en vermogende particulieren. Binnen één kantoor is alle expertise te vinden, zowel van fiscale aspecten als van bedrijfseconomische.\nMet die kennis van zaken helpen we onze cliënten elke dag vooruit.\n\nWat bij veel collega-kantoren meestal gescheiden wordt gehouden, houden wij liever in één hand: administratie en fiscale verplichtingen. Omdat het slimmer is wanneer een administratief specialist ook de laatste fiscale wijzigingen kent, en als de fiscalist ook administratief goed is onderlegd. Dat is niet alleen efficiënter, het geeft onze adviezen ook meerwaarde."
+        }
+    </script>
     
     {% include favicon.html %}
 
